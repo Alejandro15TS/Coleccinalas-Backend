@@ -233,6 +233,8 @@ app.put('/admin/productos/:id', verificarToken, verificarAdmin, (req, res) => {
   });
 });
 
-app.listen(3001, () => {
-  console.log('Servidor backend corriendo en http://localhost:3001');
+const PORT = process.env.PORT || 3001;
+
+app.listen(PORT, () => {
+  console.log(`Servidor backend corriendo en el puerto ${PORT}`);
 });
