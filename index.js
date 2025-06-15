@@ -31,11 +31,13 @@ const verificarAdmin = (req, res, next) => {
 
 // Conexión a la base de datos
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
+  user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  database: 'coleccionalas_todas'
+  database: process.env.DB_NAME
 });
+
 
 db.connect((err) => {
   if (err) {
