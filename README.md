@@ -36,19 +36,20 @@ index.js → Punto de entrada del servidor
 
 1. Clona el repositorio:
 
-```bash
+bash
 git clone https://github.com/Alejandro15TS/Colecci-nalas-todas---Backend
 
-Entra en la carpeta del proyecto:
+2. Entra en la carpeta del proyecto:
 
-```bash
+bash
 cd Colecci-nalas-todas---Backend
-Instala las dependencias:
 
-```bash
+3. Instala las dependencias:
+
+bash
 npm install
 
-Inicia el servidor:
+4. Inicia el servidor:
 node index.js
 
 El servidor se ejecutará por defecto en http://localhost:5000.
@@ -56,4 +57,4 @@ El servidor se ejecutará por defecto en http://localhost:5000.
 🧠 Autor
 Alejandro Tomás Sabater
 Técnico Superior en Desarrollo de Aplicaciones Web
-LinkedIn
+https://www.linkedin.com/in/alejandro-tomas-sabater-982224123/
