@@ -2,7 +2,7 @@
 
 Este repositorio contiene el backend de **Colecciónalas Todas**, una tienda online de cartas coleccionables desarrollada como proyecto final del ciclo formativo de Desarrollo de Aplicaciones Web.
 
-## Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - **Node.js**
 - **Express.js**
@@ -14,7 +14,7 @@ Este repositorio contiene el backend de **Colecciónalas Todas**, una tienda onl
 - **Git & GitHub**
 - Despliegue en **Render**
 
-## Funcionalidades principales
+## ⚙️ Funcionalidades principales
 
 - Registro y login de usuarios con autenticación mediante JWT.
 - Gestión de productos (catálogo).
@@ -26,27 +26,34 @@ Este repositorio contiene el backend de **Colecciónalas Todas**, una tienda onl
 - Conexión con base de datos MySQL.
 - API REST estructurada.
 
-## Estructura del proyecto
+## 📁 Estructura del proyecto
 
-/config → Conexión a base de datos y configuración general
 /controllers → Lógica de negocio (usuarios, productos, pedidos...)
-/models → Consultas a la base de datos
 /routes → Rutas de la API REST
-/middleware → Middlewares personalizados (auth, etc.)
-/utils → Funciones auxiliares
-server.js → Punto de entrada del servidor
-
+index.js → Punto de entrada del servidor
 
 ## 🚀 Instalación local
 
-Clona el repositorio:
+1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/Alejandro15TS/Colecci-nalas-todas---Backend.git
+git clone https://github.com/Alejandro15TS/Colecci-nalas-todas---Backend
+
+Entra en la carpeta del proyecto:
+
+```bash
 cd Colecci-nalas-todas---Backend
+Instala las dependencias:
+
+```bash
 npm install
 
+Inicia el servidor:
+node index.js
 
-Autor
+El servidor se ejecutará por defecto en http://localhost:5000.
+
+🧠 Autor
 Alejandro Tomás Sabater
 Técnico Superior en Desarrollo de Aplicaciones Web
+LinkedIn
